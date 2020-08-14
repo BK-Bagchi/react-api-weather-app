@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    background: grey;
+    background-image: url("bg.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.takeCityName, .citySearchBtn{
+    font-size: 20px;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.takeCityName{
+    width: 50%;
+    height: 40px;
+}
+.citySearchBtn{
+    padding: 0 10px;
+}
+
+
+
+.my-location img{
+    width: 200px;
+}
+
+
+
+
+.temperature img{
+    width: 150px;
+    height: 120px;
+}
+.temperature h1{
+    font-size: 70px;
+}
+
+
+
+
+.humidity{
+    width: 70%;
+    color: white;
+}
+.fullWidth{
+    position: relative;
+    width: 70%;
+    height: 18px;
+    background: gray;
+    border-radius: 10px;
+}
+.fullWidth span{
+    position: absolute;
+    top: -5px;
+    left: 46%;
+}
+
+.partialWidth{
+    /* width: 90%; */
+    height: 100%;
+    background: linear-gradient(to right, #f368e0, #10ac84, #0abde3);
+    border-radius: 10px;
+}
